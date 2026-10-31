@@ -71,3 +71,5 @@ hand. Ideas (pick one, or your own):
 Name it test_something, run pytest, and see it pass. Then break your
 code on purpose (change a sign in fs): does your test catch it?
 """
+def test_something():
+    assert triangle(-X) == pytest.approx(triangle(X))
